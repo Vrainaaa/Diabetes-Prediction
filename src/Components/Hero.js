@@ -18,7 +18,8 @@ function Hero() {
   };
 
   const handleCheckPredictionClick = () => {
-    navigate("/diabetes-prediction");
+    // Open the Streamlit app in a new tab
+    window.open("https://diabetes-prediction-nlt9v3maudna4pznhyihvj.streamlit.app/", "_blank");
   };
 
   useEffect(() => {
